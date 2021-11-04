@@ -25,6 +25,15 @@ MKDOCS: Ούτε το mkdocs στο readthedocs υποστηρίζει ελλη�
 https://github.com/mkdocs/mkdocs/issues/826
 Και τα δύο βασίζονται στο: https://lunrjs.com/guides/language_support.html
 
+Ελληνικές κεφαλίδες
+-------------------
+
+Just the docs: υποστηρίζει ελληνικές κεφαλίδες, π.χ.
+https://pe86.github.io/sch-scripts-md/users-create/#ξεχωριστός-λογαριασμός-ανά-μαθητή
+
+Read the docs: τις κόβει και χρειάζεται labels, π.χ.
+https://sch-scripts-md.readthedocs.io/el/latest/users-create/#_4
+
 Απλότητα σύνταξης
 -----------------
 
@@ -51,7 +60,7 @@ MKDOCS: τα plugins του συνήθως χρησιμοποιούν το https
 Αποτέλεσμα
 ----------
 
-Φαίνεται κάπως σαν να συγκρίνουμε latex με ...frontpage. Το rst είναι πιο
+Φαίνεται κάπως σαν να συγκρίνουμε latex με ...wordpress. Το rst είναι πιο
 επαγγελματικό, με καλύτερα αποτελέσματα, αλλά με καμπύλη μάθησης, δυσκολία
 στο στήσιμο των εργαλείων, και έχει κι αυτό τους περιορισμούς του, δεν τα
 κάνει όλα. Το βασικότερο πλεονέκτημά του, η εξαγωγή documentation από τον
