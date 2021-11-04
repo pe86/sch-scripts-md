@@ -2,3 +2,8 @@ site_name: Διαχείριση ΣΕΠΕΗΥ (sch-scripts)
 
 theme:
     name: readthedocs
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
