@@ -1,0 +1,3 @@
+site_name: Διαχείριση ΣΕΠΕΗΥ (sch-scripts)
+plugins:
+    - with-pdf
