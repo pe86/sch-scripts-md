@@ -3,7 +3,7 @@ title: sch-scripts
 description: Διαχείριση ΣΕΠΕΗΥ
 remote_theme: pmarsceill/just-the-docs
 
-url: "https://pe86.github.io/sch-scripts-md" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://pe86.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 permalink: pretty
 exclude: ["node_modules/", "*.gemspec", "*.gem", "Gemfile", "Gemfile.lock", "package.json", "package-lock.json",  "script/", "LICENSE.txt", "lib/", "bin/", "Rakefile"]
