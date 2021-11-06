@@ -316,12 +316,12 @@
 Δημιουργία κοινόχρηστων καταλόγων
 ---------------------------------
 
-<img src="images/sch-scripts_shared_folders.png">
+<img src="images/sch-scripts_shared_folders.png?raw=true">
 
-<img style="float: right;" src="images/sch-scripts_shared_folders.png">
+<img style="float: right;" src="images/sch-scripts_shared_folders.png?raw=true">
 
 <p align="right">
-  <img src="images/sch-scripts_shared_folders.png" />
+  <img src="images/sch-scripts_shared_folders.png?raw=true" />
 </p>
 
 
