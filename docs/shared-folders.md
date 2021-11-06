@@ -168,6 +168,8 @@
 
 Οι αντιστοιχήσεις των καταλόγων είναι:
 
+<center>
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -208,17 +210,14 @@
 </tbody>
 </table></div>
 
-::: {.note}
-::: {.admonition-title}
-Note
-:::
+</center>
+
+!!! Note
 
 Στο παραπάνω πίνακα δεν εμφανίζεται ο κατάλογος `teachers - Κοινόχρηστα`
-γιατί δεν είναι ορατός στους χρήστες με ρόλο `Μαθητή`{.interpreted-text
-role="guilabel"}. Είναι ορατός μόνο στους χρήστες με ρόλο
-`Καθηγητή`{.interpreted-text role="guilabel"} και χρησιμεύει στη
+γιατί δεν είναι ορατός στους χρήστες με ρόλο `Μαθητή`. Είναι ορατός μόνο στους χρήστες με ρόλο
+`Καθηγητή` και χρησιμεύει στη
 μεταφορά αρχείων μεταξύ των καθηγητών ενός σχολείου.
-:::
 
 Τώρα, εάν υποθέσουμε ότι όλοι οι χρήστες ανήκουν σε όλα τα τμήματα τότε
 ο πίνακας των κοινόχρηστων καταλόγων γίνεται ως εξής:
