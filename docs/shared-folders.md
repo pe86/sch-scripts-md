@@ -42,6 +42,8 @@
 
 Για τους χρήστες ισχύουν:
 
+<center>
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -91,6 +93,8 @@
   </tr>
 </tbody>
 </table></div>
+
+</center>
 
 Τα sch-scripts θα δημιουργήσουν τους παρακάτω κοινόχρηστους καταλόγους
 μέσα στον κατάλογο Δημόσια του κάθε χρήστη:
