@@ -318,13 +318,6 @@
 
 <img width="20%" src="images/sch-scripts_shared_folders.png?raw=true">
 
-<img style="float: right;" src="images/sch-scripts_shared_folders.png?raw=true">
-
-<p align="right" width="20%">
-  <img src="images/sch-scripts_shared_folders.png?raw=true" />
-</p>
-
-
 ![image](images/sch-scripts_shared_folders.png)
 
 Για να δημιουργήσετε τους κοινόχρηστους καταλόγους σε μια ομάδα:
