@@ -9,7 +9,7 @@
 ανήκουν και το ρόλο που κατέχουν (καθηγητής, μαθητής) οι χρήστες.
 
 Πιο συγκεκριμένα, σε ένα χρήστη που έχει ρόλο
-`Καθηγητή`{.interpreted-text role="guilabel"}, στην επιφάνεια εργασίας
+`Καθηγητή`, στην επιφάνεια εργασίας
 του, μέσα στον κατάλογο `Δημόσια` δημιουργούνται τόσοι κατάλογοι όσοι
 και τα τμήματα που διδάσκει με ονομασία την ονομασία των τμημάτων.
 Επίσης δημιουργούνται κατάλογοι με ονομασία την ονομασία των τμημάτων
@@ -17,7 +17,7 @@
 ονομασία `teachers - Κοινόχρηστα`. Δηλαδή για κάθε τμήμα που διδάσκει,
 του δημιουργούνται 2 κατάλογοι, ένας με όνομα τμήμα και ένας με όνομα
 `τμήμα - Κοινόχρηστα`. Αντίστοιχα, σε ένα χρήστη που έχει ρόλο
-`Μαθητή`{.interpreted-text role="guilabel"}, στην επιφάνεια εργασίας
+`Μαθητή`, στην επιφάνεια εργασίας
 του, μέσα στον κατάλογο `Δημόσια` δημιουργούνται τόσοι κατάλογοι όσοι
 και οι καθηγητές που διδάσκουν στο τμήμα/τμήματα που ανήκει με ονομασία
 την ονομασία των τμημάτων και κατάληξη το πραγματικό όνομα του καθηγητή.
@@ -30,60 +30,133 @@
 έχουν δικαιώματα ανάγνωσης αλλά δικαιώματα εγγραφής έχει μόνο ο χρήστης
 (καθηγητής) που έχει πραγματικό όνομα ίδιο με αυτό του καταλόγου.
 Εξαίρεση αποτελεί ο κατάλογος `teachers - Κοινόχρηστα` ο οποίος
-εμφανίζεται μόνο στους χρήστες με ρόλο `Καθηγητή`{.interpreted-text
-role="guilabel"} και όλοι έχουν δικαιώματα ανάγνωσης και εγγραφής.
+εμφανίζεται μόνο στους χρήστες με ρόλο `Καθηγητή` και όλοι έχουν δικαιώματα ανάγνωσης και εγγραφής.
 
 Για την καλύτερη κατανόηση θα δώσουμε ένα απλό παράδειγμα:
 
-Έστω ότι στο σύστημα έχουμε δύο ομάδες `a1`{.interpreted-text
-role="guilabel"} και `a2`{.interpreted-text role="guilabel"} και
+Έστω ότι στο σύστημα έχουμε δύο ομάδες `a1` και `a2` και
 υπάρχουν οι χρήστες `teacher`, `administrator`, `user01` και `user02`.
 Οι χρήστες `teacher` και `user01` ανήκουν στο τμήμα
-`a1`{.interpreted-text role="guilabel"} ενώ οι χρήστες `administrator`
-και `user02` ανήκουν στον τμήμα `a2`{.interpreted-text role="guilabel"}.
+`a1` ενώ οι χρήστες `administrator`
+και `user02` ανήκουν στον τμήμα `a2`.
 
 Για τους χρήστες ισχύουν:
 
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| Ρόλοι Χρηστών \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\--+
-\| Όνομα χρήστη \| Πραγματικό όνομα \| Ρόλος \| Τμήμα \|
-+===============+==================+==============+=======+ \|
-administrator \| Υπεύθυνος ΣΕΠΕΗΥ \| Διαχειριστής \| a2 \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\--+
-\| user02 \| Χρήστης 02 \| Μαθητής \| a2 \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\--+
-\| teacher \| Καθηγητής 01 \| Καθηγητής \| a1 \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\--+
-\| user01 \| Χρήστης 01 \| Μαθητής \| a1 \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\--+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+<thead>
+  <tr>
+    <th class="tg-baqh" colspan="4"><span style="font-weight:bold">Ρόλοι χρηστών</span></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-7btt">Όνομα χρήστη </td>
+    <td class="tg-7btt">Πραγματικό όνομα </td>
+    <td class="tg-7btt">Ρόλος </td>
+    <td class="tg-7btt">Τμήμα </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">administrator </td>
+    <td class="tg-c3ow">Υπεύθυνος ΣΕΠΕΗΥ </td>
+    <td class="tg-c3ow">Διαχειριστής </td>
+    <td class="tg-c3ow">a2 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">user02 </td>
+    <td class="tg-c3ow">Χρήστης 02 </td>
+    <td class="tg-c3ow">Μαθητής </td>
+    <td class="tg-c3ow">a2 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">teacher </td>
+    <td class="tg-c3ow">Καθηγητής 01 </td>
+    <td class="tg-c3ow">Καθηγητής </td>
+    <td class="tg-c3ow">a1 </td>
+  </tr>
+  <tr>
+    <td class="tg-c3ow">user01 </td>
+    <td class="tg-c3ow">Χρήστης 01 </td>
+    <td class="tg-c3ow">Μαθητής </td>
+    <td class="tg-c3ow">a1 </td>
+  </tr>
+</tbody>
+</table></div>
 
 Τα sch-scripts θα δημιουργήσουν τους παρακάτω κοινόχρηστους καταλόγους
 μέσα στον κατάλογο Δημόσια του κάθε χρήστη:
 
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| Κοινόχρηστοι κατάλογοι \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| Όνομα χρήστη \| Τμήμα \| Κατάλογοι \|
-+===============+=======+========================+ \| teacher \| a1 \|
-a1 \| \| \| +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+ \| \| \|
-a1 - Κοινόχρηστα \| \| \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+ \| \| \| teachers -
-Κοινόχρηστα \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| user01 \| a1 \| a1 - Κοινόχρηστα \| \| \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+ \| \| \| a1 -
-Καθηγητής 01 \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| administrator \| a2 \| a2 \| \| \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+ \| \| \| a2 -
-Κοινόχρηστα \| \| \| +\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| \| \| teachers - Κοινόχρηστα \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| user02 \| a2 \| a2 - Κοινόχρηστα \| \| \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+ \| \| \| a2 -
-Υπεύθυνος ΣΕΠΕΗΥ \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+<thead>
+  <tr>
+    <th class="tg-amwm" colspan="3">Κοινόχρηστοι κατάλογοι</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-wa1i">Όνομα χρήστη </td>
+    <td class="tg-wa1i">Τμήμα </td>
+    <td class="tg-wa1i">Κατάλογοι </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="3">teacher </td>
+    <td class="tg-nrix" rowspan="3">a1 </td>
+    <td class="tg-nrix">a1 </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">teachers - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="2">user01 </td>
+    <td class="tg-nrix" rowspan="2">a1 </td>
+    <td class="tg-nrix">a1 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 - Καθηγητής 01 </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="3">administrator </td>
+    <td class="tg-nrix" rowspan="3">a2 </td>
+    <td class="tg-nrix">a2 </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a2 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">teachers - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="2">user02 </td>
+    <td class="tg-nrix" rowspan="2">a2 </td>
+    <td class="tg-nrix">a2 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a2 - Υπεύθυνος ΣΕΠΕΗΥ </td>
+  </tr>
+</tbody>
+</table></div>
 
 Οι αντιστοιχήσεις των καταλόγων είναι:
 
