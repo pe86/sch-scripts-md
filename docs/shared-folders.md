@@ -222,10 +222,101 @@
 Τώρα, εάν υποθέσουμε ότι όλοι οι χρήστες ανήκουν σε όλα τα τμήματα τότε
 ο πίνακας των κοινόχρηστων καταλόγων γίνεται ως εξής:
 
+<center>
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+<thead>
+  <tr>
+    <th class="tg-amwm" colspan="3">Κοινόχρηστοι κατάλογοι</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-wa1i">Όνομα χρήστη </td>
+    <td class="tg-wa1i">Τμήμα </td>
+    <td class="tg-wa1i">Κατάλογοι </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="5">teacher </td>
+    <td class="tg-nrix" rowspan="5">a1 </td>
+    <td class="tg-nrix">a1 </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a2 </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a2 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">teachers - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="4">user01 </td>
+    <td class="tg-nrix" rowspan="4">a1 </td>
+    <td class="tg-nrix">a1 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 - Καθηγητής 01 </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a2 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a2 - Υπεύθυνος ΣΕΠΕΗΥ </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="5">administrator </td>
+    <td class="tg-nrix" rowspan="5">a2 </td>
+    <td class="tg-nrix">a2 </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a2 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">teachers - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix" rowspan="4">user02 </td>
+    <td class="tg-nrix" rowspan="4">a2 </td>
+    <td class="tg-nrix">a2 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a2 - Υπεύθυνος ΣΕΠΕΗΥ </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 - Καθηγητής 01 </td>
+  </tr>
+</tbody>
+</table></div>
+
+</center>
+
 Δημιουργία κοινόχρηστων καταλόγων
 ---------------------------------
 
-<img align="right" src="images/sch-scripts_shared_folders.png">
+<img src="images/sch-scripts_shared_folders.png">
 
 Για να δημιουργήσετε τους κοινόχρηστους καταλόγους σε μια ομάδα:
 
