@@ -42,8 +42,6 @@
 
 Για τους χρήστες ισχύουν:
 
-<center>
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -94,12 +92,8 @@
 </tbody>
 </table></div>
 
-</center>
-
 Τα sch-scripts θα δημιουργήσουν τους παρακάτω κοινόχρηστους καταλόγους
 μέσα στον κατάλογο Δημόσια του κάθε χρήστη:
-
-<center>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
@@ -164,11 +158,7 @@
 </tbody>
 </table></div>
 
-</center>
-
 Οι αντιστοιχήσεις των καταλόγων είναι:
-
-<center>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
@@ -210,8 +200,6 @@
 </tbody>
 </table></div>
 
-</center>
-
 !!! note
 
     Στο παραπάνω πίνακα δεν εμφανίζεται ο κατάλογος `teachers - Κοινόχρηστα`
@@ -221,8 +209,6 @@
 
 Τώρα, εάν υποθέσουμε ότι όλοι οι χρήστες ανήκουν σε όλα τα τμήματα τότε
 ο πίνακας των κοινόχρηστων καταλόγων γίνεται ως εξής:
-
-<center>
 
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
@@ -311,12 +297,10 @@
 </tbody>
 </table></div>
 
-</center>
-
 Δημιουργία κοινόχρηστων καταλόγων
 ---------------------------------
 
-<img align="right" src="images/sch-scripts_shared_folders.png">
+![image](images/sch-scripts_shared_folders.png)
 
 Για να δημιουργήσετε τους κοινόχρηστους καταλόγους σε μια ομάδα:
 
