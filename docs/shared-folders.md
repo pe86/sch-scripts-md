@@ -225,7 +225,7 @@
 Δημιουργία κοινόχρηστων καταλόγων
 ---------------------------------
 
-<img align="right" width="60%" src="images/sch-scripts_shared_folders.png">
+<img align="right" src="images/sch-scripts_shared_folders.png">
 
 Για να δημιουργήσετε τους κοινόχρηστους καταλόγους σε μια ομάδα:
 
