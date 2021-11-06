@@ -168,19 +168,45 @@
 
 Οι αντιστοιχήσεις των καταλόγων είναι:
 
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| Αντιστοιχήσεις καταλόγων \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| Κατάλογος Καθηγητή \| Κατάλογος Μαθητή \|
-+====================+=======================+ \| a1 \| a1 - Καθηγητής
-01 \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| a1 - Κοινόχρηστα \| a1 - Κοινόχρηστα \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| a2 \| a2 - Υπεύθυνος ΣΕΠΕΗΥ \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
-\| a1 - Κοινόχρηστα \| a1 - Κοινόχρηστα \|
-+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-wa1i{font-weight:bold;text-align:center;vertical-align:middle}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-nrix{text-align:center;vertical-align:middle}
+@media screen and (max-width: 767px) {.tg {width: auto !important;}.tg col {width: auto !important;}.tg-wrap {overflow-x: auto;-webkit-overflow-scrolling: touch;margin: auto 0px;}}</style>
+<div class="tg-wrap"><table class="tg">
+<thead>
+  <tr>
+    <th class="tg-amwm" colspan="2">Αντιστοιχήσεις καταλόγων</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-wa1i">Κατάλογος Καθηγητή </td>
+    <td class="tg-wa1i">Κατάλογος Μαθητή </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 </td>
+    <td class="tg-nrix">a1 - Καθηγητής 01 </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 - Κοινόχρηστα </td>
+    <td class="tg-nrix">a1 - Κοινόχρηστα </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a2 </td>
+    <td class="tg-nrix">a2 - Υπεύθυνος ΣΕΠΕΗΥ </td>
+  </tr>
+  <tr>
+    <td class="tg-nrix">a1 - Κοινόχρηστα </td>
+    <td class="tg-nrix">a1 - Κοινόχρηστα </td>
+  </tr>
+</tbody>
+</table></div>
 
 ::: {.note}
 ::: {.admonition-title}
