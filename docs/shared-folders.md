@@ -320,6 +320,11 @@
 
 <img style="float: right;" src="images/sch-scripts_shared_folders.png">
 
+<p align="right">
+  <img src="images/sch-scripts_shared_folders.png" />
+</p>
+
+
 ![image](images/sch-scripts_shared_folders.png)
 
 Για να δημιουργήσετε τους κοινόχρηστους καταλόγους σε μια ομάδα:
