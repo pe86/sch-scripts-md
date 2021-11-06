@@ -222,6 +222,8 @@
 Τώρα, εάν υποθέσουμε ότι όλοι οι χρήστες ανήκουν σε όλα τα τμήματα τότε
 ο πίνακας των κοινόχρηστων καταλόγων γίνεται ως εξής:
 
+<center>
+
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;margin:0px auto;}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
@@ -309,10 +311,14 @@
 </tbody>
 </table></div>
 
+</center>
+
 Δημιουργία κοινόχρηστων καταλόγων
 ---------------------------------
 
 <img src="images/sch-scripts_shared_folders.png">
+
+![image](images/sch-scripts_shared_folders.png)
 
 Για να δημιουργήσετε τους κοινόχρηστους καταλόγους σε μια ομάδα:
 
