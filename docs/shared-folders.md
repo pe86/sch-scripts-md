@@ -316,9 +316,7 @@
 Δημιουργία κοινόχρηστων καταλόγων
 ---------------------------------
 
-<img width="20%" src="images/sch-scripts_shared_folders.png?raw=true">
-
-![image](images/sch-scripts_shared_folders.png)
+<img width="20%" src="docs/images/sch-scripts_shared_folders.png">
 
 Για να δημιουργήσετε τους κοινόχρηστους καταλόγους σε μια ομάδα:
 
